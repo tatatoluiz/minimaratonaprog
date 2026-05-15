@@ -1,6 +1,7 @@
 function solucao(n){
     let vetor=[]
     for(i=1;i<=n;i++){
+        //talvez continue
         if(i%3===0){
             if(i%5===0){
                 vetor.push("FizzBuzz")
